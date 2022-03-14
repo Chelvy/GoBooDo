@@ -55,7 +55,7 @@ class  GoBooDo:
                 'Accept-Language': 'en-US,en;q=0.5',
                 'Accept-Encoding': 'gzip, deflate',
                 'Connection': 'close',
-                'Cookie': "NID=" + str(req.cookies['NID']),
+                #'Cookie': "NID=" + str(req.cookies['NID']),
                         }
         except Exception as e:
             if 'captcha'.encode() in req.content:
