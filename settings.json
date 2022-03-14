@@ -1,10 +1,10 @@
 {
-    "country": "com", // The TLD for the service that is being used for example books.google.co.in or books.google.de
-    "page_resolution": 1500, // The resoution of page in dpi.
-    "tesseract_path": "/usr/local/Cellar/tesseract/5.1.0/bin/tesseract", // The path for tesseract engine if not available via environment variables. E.g. on linux Ubuntu this looks like "tesseract_path": "/usr/bin/tesseract",
-    "proxy_links": 1,   // 0 for disabling proxy when fetching page links upon reaching the limit.
-    "proxy_images": 1,  // 0 for disabling proxy when fetching  page images upon reaching the limit.
-    "max_retry_links": 1, // Max retries for fetching a link using proxies.
-    "max_retry_images": 1, // Max retries for a fetching a image using proxies.
-    "global_retry_time": 30 // 0 for not running GoBooDo indefinitely, the number of seconds of delay between each global retry otherwise.
+"country": "com", // The TLD for the service that is being used for example books.google.co.in or books.google.de
+"page_resolution": 1500, // The resoution of page in dpi.
+"tesseract_path": "/usr/local/Cellar/tesseract/5.1.0/bin/tesseract", // The path for tesseract engine if not available via environment variables. E.g. on linux Ubuntu this looks like "tesseract_path": "/usr/bin/tesseract",
+"proxy_links": 1,   // 0 for disabling proxy when fetching page links upon reaching the limit.
+"proxy_images": 1,  // 0 for disabling proxy when fetching  page images upon reaching the limit.
+"max_retry_links": 1, // Max retries for fetching a link using proxies.
+"max_retry_images": 1, // Max retries for a fetching a image using proxies.
+"global_retry_time": 30 // 0 for not running GoBooDo indefinitely, the number of seconds of delay between each global retry otherwise.
   }
