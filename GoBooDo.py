@@ -86,6 +86,7 @@ class  GoBooDo:
             index = [i for i, content in enumerate(scripts) if '_OC_Run' in str(content)]
             index = index[0]
             stringResponse = f"[{str(scripts[index]).split('_OC_Run')[1][1:].strip(');</script>')}]"
+
             jsonResponse = json.loads(stringResponse)
             self.createPageDict(jsonResponse)
             print(f'Pages to be fetched in the current iteration are : {len(self.pageList)}')

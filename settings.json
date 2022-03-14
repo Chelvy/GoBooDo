@@ -1,10 +1,10 @@
 {
 "country": "com",
-"page_resolution": 1500,
+"page_resolution": 500,
 "tesseract_path": "/usr/local/Cellar/tesseract/5.1.0/bin/tesseract",
-"proxy_links": 2,
-"proxy_images": 2,
-"max_retry_links": 2,
-"max_retry_images": 2,
+"proxy_links": 1,
+"proxy_images": 1,
+"max_retry_links": 5,
+"max_retry_images": 5,
 "global_retry_time": 30
 }
